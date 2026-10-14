@@ -1,0 +1,69 @@
+index.html<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magdelain Peinture | Artisan peintre en bâtiment</title>
+<meta name="description" content="Magdelain Peinture, artisan peintre en bâtiment dans les Hautes-Alpes. Peinture intérieure, extérieure, décoration et rénovation.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#263445;line-height:1.6}
+header{background:#12365a;color:white;padding:28px 18px;text-align:center}
+header h1{margin:0;font-size:32px}
+header p{margin:5px 0;color:#d9eaff}
+nav{background:#eaf2f8;padding:13px;text-align:center}
+nav a{color:#12365a;text-decoration:none;font-weight:bold;margin:0 10px}
+.hero{background:linear-gradient(135deg,#12365a,#2682b8);color:white;text-align:center;padding:75px 20px}
+.hero h2{font-size:34px;line-height:1.2}
+.hero p{max-width:650px;margin:20px auto}
+.btn{display:inline-block;background:#fff;color:#12365a;padding:13px 22px;border-radius:6px;text-decoration:none;font-weight:bold;margin:8px}
+section{padding:45px 20px;max-width:1000px;margin:auto}
+h2{text-align:center;color:#12365a}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.service{padding:22px;background:#f0f5f9;border-radius:10px;border-bottom:4px solid #2682b8}
+.service h3{color:#12365a;margin-top:0}
+.contact{background:#eaf2f8;text-align:center}
+footer{background:#12365a;color:white;text-align:center;padding:20px}
+.small{font-size:14px;color:#617080}
+</style>
+</head>
+<body>
+<header>
+<h1>MAGDELAIN PEINTURE</h1>
+<p>Artisan peintre en bâtiment · Rénovation · Décoration</p>
+</header>
+<nav>
+<a href="#services">Prestations</a>
+<a href="#apropos">À propos</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="hero">
+<h2>Vos travaux de peinture, réalisés avec soin</h2>
+<p>Peinture intérieure et extérieure, rénovation et décoration dans les Hautes-Alpes. Un travail soigné pour donner vie à vos projets.</p>
+<a class="btn" href="#contact">Demander un devis</a>
+</div>
+<section id="services">
+<h2>Mes prestations</h2>
+<div class="services">
+<div class="service"><h3>Peinture intérieure</h3><p>Murs, plafonds, boiseries et finitions pour un intérieur propre et harmonieux.</p></div>
+<div class="service"><h3>Peinture extérieure</h3><p>Rénovation et protection de vos façades, volets et boiseries extérieures.</p></div>
+<div class="service"><h3>Rénovation</h3><p>Préparation des supports, enduits, ponçage et remise en état des surfaces.</p></div>
+<div class="service"><h3>Décoration</h3><p>Tapisserie, revêtements décoratifs, stucs et béton ciré selon votre projet.</p></div>
+</div>
+</section>
+<section id="apropos">
+<h2>Votre artisan peintre</h2>
+<p>Magdelain Peinture vous accompagne dans vos projets de rénovation et de décoration. Chaque chantier est préparé avec sérieux, avec une attention particulière portée aux finitions et à la qualité du travail.</p>
+<p>Intervention autour de Serres, Laragne, Veynes, Rosans, La Roche-des-Arnauds, Montmaur et Gap.</p>
+</section>
+<section id="contact" class="contact">
+<h2>Parlons de votre projet</h2>
+<p>Vous avez des travaux de peinture ou de décoration ? Contactez-moi pour échanger sur vos besoins et préparer votre devis.</p>
+<p><strong>Magdelain Peinture</strong></p>
+<p class="small">Ajoutez ici votre numéro de téléphone et votre adresse e-mail.</p>
+</section>
+<footer>
+<p>© Magdelain Peinture · Artisan peintre en bâtiment</p>
+</footer>
+</body>
+</html>
